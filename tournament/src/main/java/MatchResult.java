@@ -13,7 +13,7 @@ public enum MatchResult {
 		this.matchResult = value;
 	}
 
-	public String getMatchResult() {
+	public String getValue() {
 		return matchResult;
 	}
 }

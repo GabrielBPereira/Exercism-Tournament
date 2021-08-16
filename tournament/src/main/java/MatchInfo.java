@@ -13,7 +13,7 @@ public class MatchInfo {
 	public MatchInfo(String teamA, String teamB, String result) {
 		this.teamA = teamA;
 		this.teamB = teamB;
-		this.result = result.compareTo(MatchResult.WIN.getMatchResult()) == 0 ? MatchResult.WIN : (result.compareTo(MatchResult.LOSS.getMatchResult()) == 0 ? MatchResult.LOSS : MatchResult.DRAW);
+		this.result = result.compareTo(MatchResult.WIN.getValue()) == 0 ? MatchResult.WIN : (result.compareTo(MatchResult.LOSS.getValue()) == 0 ? MatchResult.LOSS : MatchResult.DRAW);
 	}
 
 	public String getTeamA() {
